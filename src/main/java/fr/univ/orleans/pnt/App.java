@@ -1,6 +1,7 @@
 package fr.univ.orleans.pnt;
 
 import fr.univ.orleans.pnt.vues.Accueil;
+import fr.univ.orleans.pnt.vues.EnregistrementPersonne;
 import fr.univ.orleans.pnt.vues.Vue;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -22,7 +23,9 @@ public class App extends Application {
         Vue accueil= Accueil.creer(stage);//on crée la vue
         accueil.show();//on l'affiche
 
-        Vue enregistrementPersonne=
+        Vue enregistrementPersonne= EnregistrementPersonne.creer(stage);//création de notre vue dans notre theatre
+        enregistrementPersonne.show();
+
     }
 
 

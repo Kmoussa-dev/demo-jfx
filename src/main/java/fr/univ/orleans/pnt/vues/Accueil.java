@@ -53,7 +53,7 @@ public class Accueil implements Vue{
         this.borderPane.setCenter(vBox);//ajout du vertical box dans le conteneur
         //création d'un nouveau label
         Label label = new Label( "Menu") ;
-        label.setFont (Font. font (32) );//taille des écriture
+        label.setFont (Font. font (32) );//taille des écritures
         this.borderPane.setTop(label);//position du label dans le conteneur
         //gestion des differentes positions dans le conteneur
         BorderPane. setAlignment (label, Pos. CENTER) ;
