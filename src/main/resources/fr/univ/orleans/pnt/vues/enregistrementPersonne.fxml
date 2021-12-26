@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univ.orleans.pnt.vues.EnregistrementPersonne">
+   <top>
+      <Label text="Enregistrement d'une nouvelle personne" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <VBox alignment="CENTER" prefHeight="384.0" prefWidth="603.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="nom" />
+            <TextField prefHeight="24.0" prefWidth="548.0" />
+            <Label text="prenom" />
+            <TextField />
+            <Label text="pseudo" />
+            <TextField />
+            <Label text="mot de passe" />
+            <PasswordField />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Reset" />
+                  <Button mnemonicParsing="false" text="Enregistrer" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
